@@ -20,6 +20,9 @@ else
     echo "Homebrew detected, skip installation ✅"
 fi
 
+# install gcc for homebrew
+brew install gcc
+
 # install from Brewfile
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 brew bundle --file "$ZDOTDIR/Brewfile"
