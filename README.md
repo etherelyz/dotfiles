@@ -38,6 +38,10 @@ then restart your shell
 
 * Edit `gitconfig.personal` file to your personalized setting (e.g. username and email)
 
+## Misc Note
+
+- For some reason that I don't know, debian doesn't create `zcompdump` file while ubuntu does (in which I guess it's because of the code in `/etc/zsh/zshrc`)
+
 ## Acknowledgement
 
 Inspired by different dotfiles I have looked around, notably [this](https://github.com/holman/dotfiles) and [this](https://github.com/z0rc/dotfiles).
