@@ -2,6 +2,7 @@ tap "oven-sh/bun"
 brew "bun"
 brew "go"
 brew "pyenv"
+brew "pipx"
 brew "uv"
 brew "xdg-ninja"
 
