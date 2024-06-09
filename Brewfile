@@ -5,6 +5,10 @@ brew "pyenv"
 brew "uv"
 brew "xdg-ninja"
 
+# apparently installing python/pyenv with brew doesn't install these and it throw a warning/error so just in case
+brew "sqlite"
+brew "python-tk"
+
 # zsh plugins
 brew "powerlevel10k"
 brew "zsh-autosuggestions"
