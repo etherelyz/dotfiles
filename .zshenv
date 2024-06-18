@@ -20,3 +20,7 @@ export DOTNET_CLI_HOME="$XDG_DATA_HOME"/dotnet
 export GOPATH="$XDG_DATA_HOME"/go
 export PYENV_ROOT="$XDG_DATA_HOME"/pyenv
 alias wget=wget --hsts-file="$XDG_DATA_HOME/wget-hsts"
+export AWS_SHARED_CREDENTIALS_FILE="$XDG_CONFIG_HOME"/aws/credentials
+export AWS_CONFIG_FILE="$XDG_CONFIG_HOME"/aws/config
+export AZURE_CONFIG_DIR="$XDG_DATA_HOME"/azure
+export DOCKER_CONFIG="$XDG_CONFIG_HOME"/docker
