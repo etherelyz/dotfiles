@@ -5,15 +5,15 @@
 - Install required packages
     - `build-essential procps curl file git`: build tools for [Homebrew on Linux](https://docs.brew.sh/Homebrew-on-Linux#requirements)
     - `wget`: used in installing VSCode Server in WSL
-    
-    ```bash
+
+    ```shell
     sudo apt-get update
     sudo apt-get install build-essential procps curl file git wget
     ```
 
 - Install zsh
 
-    ```bash
+    ```shell
     sudo apt install zsh
     chsh -s $(which zsh)
     ```
