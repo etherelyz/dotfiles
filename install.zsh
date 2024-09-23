@@ -1,6 +1,6 @@
 #!/usr/bin/env zsh
 
-set -eu # -e: exit immediately if a command exits with a non-zero status, -u: treat unset variables as an error when substituting
+# set -eu # -e: exit immediately if a command exits with a non-zero status, -u: treat unset variables as an error when substituting
 
 DOTFILES_DIR=$(dirname "$0")
 CONFIG_DIR="$DOTFILES_DIR/config"
