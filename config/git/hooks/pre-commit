@@ -1,5 +1,4 @@
 #!/usr/bin/env zsh
-echo "Pre-commit hook executed" >> /tmp/pre-commit.log
 
 # Run Gitleaks to check for leaks in the current commit
 echo "Running Gitleaks pre-commit hook..."
