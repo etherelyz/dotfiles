@@ -1,0 +1,16 @@
+#!/usr/bin/env zsh
+echo "Pre-commit hook executed" >> /tmp/pre-commit.log
+
+# Run Gitleaks to check for leaks in the current commit
+echo "Running Gitleaks pre-commit hook..."
+
+# Check for leaks using the updated 'gitleaks git' command
+gitleaks git
+
+if [ $? -ne 0 ]; then
+  echo "Gitleaks found sensitive information. Commit aborted."
+  exit 1
+fi
+
+echo "No leaks found by Gitleaks. Proceeding with the commit."
+exit 0
