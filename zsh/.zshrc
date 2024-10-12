@@ -46,3 +46,6 @@ source $HOMEBREW_PREFIX/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # To customize prompt, run `p10k configure` or edit ~/.dotfiles/zsh/.p10k.zsh.
 [[ -f ~/.dotfiles/zsh/p10k.zsh ]] && source ~/.dotfiles/zsh/p10k.zsh
+
+# Set up fzf key bindings and fuzzy completion
+source <(fzf --zsh)
