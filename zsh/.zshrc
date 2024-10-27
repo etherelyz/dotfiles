@@ -2,6 +2,7 @@
 #     history     #
 #-----------------#
 
+mkdir -p "$XDG_STATE_HOME/zsh"
 HISTFILE="$XDG_STATE_HOME/zsh/history"
 HISTSIZE=1000000
 SAVEHIST=1000000
