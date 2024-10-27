@@ -49,4 +49,5 @@ source $HOMEBREW_PREFIX/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 [[ -f ~/.dotfiles/zsh/p10k.zsh ]] && source ~/.dotfiles/zsh/p10k.zsh
 
 # Set up fzf key bindings and fuzzy completion
+# CTRL-T -> search files, CTRL-R -> search command history
 source <(fzf --zsh)
