@@ -15,3 +15,4 @@ export WGETRC="$XDG_CONFIG_HOME/wget/wgetrc"
 export GOPATH="$XDG_DATA_HOME/go"
 export GOBIN="$GOPATH/bin"
 export PYENV_ROOT="$XDG_DATA_HOME/pyenv"
+export DOTNET_CLI_HOME="$XDG_DATA_HOME"/dotnet
